@@ -5,7 +5,7 @@
 
 """Creates config_setting that allows selecting based on 'compiler' value."""
 
-def create_msvc_config():
+def create_msvc_config(name):
   # The "do_not_use_tools_cpp_compiler_present" attribute exists to
   # distinguish between older versions of Bazel that do not support
   # "@bazel_tools//tools/cpp:compiler" flag_value, and newer ones that do.
